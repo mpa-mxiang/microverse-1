@@ -60,3 +60,10 @@ footer{
     padding: 10px;
     color:black;
 }
+
+@media (max-width: 375px) {
+    #video{
+        width: 275;
+        height:200;
+    }
+}
