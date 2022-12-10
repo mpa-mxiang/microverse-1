@@ -11,25 +11,15 @@ input{
     background-color: #929292;
 }
 
-#nav-bar {
-    background-color: #be3144;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#nav-list {
-    display: flex;
-    flex-direction: row;
-    
-    list-style: none;
+a: not(.nav-link){
+    color: black;
 }
 
 #header-img{
-    max-height: 27px;
+    max-height: 25px;
+    position: absolute;
+    right: 150px;
+    border: 3px solid green;
 }
 
 #nav-bar{
@@ -38,11 +28,7 @@ input{
     text-align: center;
     top: 0%;
     background-color: #92869c;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 50px;
+
 }
 
 h1{
@@ -58,6 +44,9 @@ footer{
 
 #bullet{
     max-height: 27px;
+}
+.logo{
+    width: 60vw;
 }
 .center{
     text-align: center;
