@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+    color:black;
+}
+main{
+    max-width: 720px;
+    margin: 54px auto;
+}
+input{
+    background-color: #929292;
+}
+
+a: not(.nav-link){
+    color: black;
+}
+
+#header-img{
+    max-height: 27px;
+}
+
+#nav-bar{
+    position: fixed;
+    width: auto;
+    text-align: center;
+    top: auto;
+    background-color: #92869c;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+#bullet{
+    max-height: 27px;
+}
+
+.flex-here{
+    display: flex;
+}
+.flex-left{
+    height: 27px;
+}
+.flex-mem{
+    display: flex;
+    justify-content: center;
+}
+.flex-mem-box{
+    background-color: aquamarine;
+    border-color: black;
+    border-width: 6px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    color:black;
+}
