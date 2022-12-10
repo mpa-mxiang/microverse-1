@@ -6,20 +6,25 @@ main{
     max-width: 720px;
     margin: 54px auto;
 }
-
 input{
     background-color: #929292;
 }
+nav > ul{
+    display: flex;
+    width: 35vw;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 150px;
 
+}
 a: not(.nav-link){
     color: black;
 }
 
 #header-img{
-    max-height: 25px;
+    max-height: 50px;
     position: absolute;
     right: 150px;
-    border: 3px solid green;
 }
 
 #nav-bar{
