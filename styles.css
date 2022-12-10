@@ -6,12 +6,26 @@ main{
     max-width: 720px;
     margin: 54px auto;
 }
+
 input{
     background-color: #929292;
 }
 
-a: not(.nav-link){
-    color: black;
+#nav-bar {
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
 }
 
 #header-img{
