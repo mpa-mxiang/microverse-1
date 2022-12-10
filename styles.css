@@ -24,6 +24,11 @@ a: not(.nav-link){
     text-align: center;
     top: 0%;
     background-color: #92869c;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
 }
 
 h1{
